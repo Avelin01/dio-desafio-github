@@ -1,0 +1,18 @@
+git init além de criar uma pasta, ele inicializa coceito de um repositorio.
+
+untracked/tracked:
+(UNTRACKED são os arquivos que o git não tem ciencia deles ainda)
+
+Unmodified/Modified/Staged
+
+STAGED é onde fica os arquivos que estão se preparando pra poder fazer parte de outro tipo de agrupamento.
+
+UNMODIFIED é um arquivo que ainda não sofreu modificação.
+
+Commit retorna os arquivos pra unmodified, ele salva e cria um snapshot e fica salvo esperando modificação novamente.
+
+> git add nomeArquivo
+> git add * coloca todos arquivos modificados a pouco tempo e coloca em staged
+> git add .
+
+> git commit -m move toda área de staged pro repositorio local 

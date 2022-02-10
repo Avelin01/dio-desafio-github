@@ -1,0 +1,24 @@
+GUI X CLI
+
+- Mudar de pastas
+- Listar as pastas
+- Criar pastas/arquivos
+- Deletar pastas/arquivos
+
+WINDOWS / UNIX
+- cd	   - cd
+- dir	   - ls
+- mkdir	   - mkdir
+- del/rmdir - rm -rf
+
+- dir < lista     - ls 
+- cd / < entra em uma pasta
+- cd .. < sair de uma pasta
+- cd windows
+- cls < limpar  - clear
+- tecla tab preve!
+- mkdir < cria pasta
+- echo > direciona
+- del workspace < apaga apenas o arquivo
+- rmdir < apaga o repositorio com todos arquivos /S /Q < forma simplificada
+

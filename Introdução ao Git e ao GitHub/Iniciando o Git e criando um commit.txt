@@ -1,0 +1,12 @@
+- Iniciar o GIT
+- Iniciar o versionamento
+- Criar um commit
+
+- git init (iniciar o git)
+- git add (mover arquivos, da inicio ao versionamento)
+- git commit (commit)
+
+(terminal é sempre o nome do programa na frente)
+
+Markdown é uma forma humana de escrever um HTML, no Markdown pra escrever um titulo maior # = h1, ## = h2, etc..
+

@@ -1,0 +1,28 @@
+- SHA1
+- Objetos fundamentais
+- Sistema distribuído
+- Segurança
+
+A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA) < ( Ele é um algoritmo de criptografia, ele pega seja uma foto, imagem, frase e vai embaralhar de uma forma muito expecifica)
+A encriptação gera conjunto de characteres indentificador de 40 dígitos. < (Se você roda uma frase e gerar, ele ira gerar conjunto de 40 dígitos, se tirar que seja uma vírgula, ele gera OUTRO conjunto, caso seja feito a inversão interior ele gera a chave anterior.)
+
+openssl sha1 (arquivo.txt)
+
+OBJETOS INTERNOS DO GIT:
+BLOBS
+TREES
+COMMITS
+
+*git manipula atráves de objetos*
+os arquivos fica guardado dentro desse arquivo chamado BLOB, ele contém metadados dentro dele, ele vai ter o tipo do objeto, o tamanho da string ou arquivo, e o conteudo.
+(O blob não guarda o nome do arquivos, apenas o SHA do arquivo)
+
+TREE armazenam blobs, é uma crescente, o blob sendo o bloco básico de composição, a TREE armazenado e apontando para tipos de blobs>"arquivos" diferentes.(Ela guarda o nome do arquivo, a Tree é responsavel de montar toda estrutura de onde está os arquivos, a TREE pode tanto apontar pra outros blobs>"Arquivos" como para outras árvores, os diretorios podem conter outros diretorios).
+
+COMMIT é objeto que vai juntar tudo, ele aponta pra uma TREE, ele aponta pra um "parente"(último COMMIT realizado antes dele), aponta pra um autor e/ou uma mensagem.
+Pode escrever uma mensagem nesse objeto chamado COMMIT, que vai está explicando e dando significado pra um monte de arquivo dentro de uma pasta.
+(Commit também possui SHA, se alterar um arquivo em uma blob, que era apontada por uma TREE altera os metadados dela(SHA1), e o commit aponta pra uma TREE, então se mudar qualquer coisa em um arquivo, vai refletir na arvore, etc..)
+
+
+
+
