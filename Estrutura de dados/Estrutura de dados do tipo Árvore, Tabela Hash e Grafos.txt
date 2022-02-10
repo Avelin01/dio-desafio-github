@@ -1,0 +1,17 @@
+Arvore é uma estrutura de dados que organiza seus elementos de forma hierárquica, onde existe um elemento que fica no topo da ÁRVORE, chamado de raiz e existem os elementos subordinados(ou anteriores) a ele, que são chamados de NÓS ou FOLHAS
+Estrutura de tipo árvore facilita a busca, ele procura passo a passo até achar determinado valor dentro de um vetor, porém de forma mais lenta, raiz é sempre o meio.
+(ele busca na raiz, caso não encontre ele busca na sub-árvores =FOLHAS)
+
+Uma TABELA HASH, de dispersão ou espalhamento é uma estrutura de dados especial, que associa chaves de pesquisa a valores, uma tabela hash é uma generalização da idéia de array, porém utiliza uma função denominada HASHING para espalhar os elementos, fazendo com que os mesmo fiquem de forma não ordenada dentro do "array" que define a tabela.
+Pra que haja pesquisa dentro desses elementos, já que não estão de forma ordenadas, a tabela hash permite a associação de "valores" a "chaves".
+Valores: é a posição ou índice onde o elemento se encontra.
+Chaves: parte da informação que compõe o elemento a ser manipulado.
+Espalha facilita a busca na estrutura de dados, pois apartir de uma chave podemos acessar de forma rápida uma posição do "array"
+(ao invez de utilizar apenas a posição, utilizamos o código referente a esse valor)
+
+GRAFOS são estruturas que permitem programar a relação entre objetos
+Os objetos são vértices ou "nós" do grafo
+Os relacionamentos são arestas
+
+(As ligações são os vértices, e relacionamentos são as arestas, ele consegue se ligar para quaisquer locais)
+

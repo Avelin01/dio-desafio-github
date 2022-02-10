@@ -1,0 +1,38 @@
+Estrutura de Dados do tipo LISTA, armazena dados de um determinado tipo em uma ordem específica,
+a diferença entre listas e arrays é a de que as listas possuem tamanho ajustável, lista não tem necessidade de iniciar com valor fixo, ela vai crescendo conforme vai adicionando valores,  enquanto arrays(vetores e matrizes) possuem tamanho fixo.
+
+Existem dois tipo de lista:
+-Ligadas
+-Duplamente Ligadas
+
+Na estrutura do tipo lista existem os nós onde cada um dos nós conhece o valor que está sendo armazenado em seu interior além de conhecer o elemento posterior a ele: por isso ela é chamada de "LISTA LIGADA", pois os nós são amarrados com essa indicação de qual é o próximo nó.
+(nó é como se fosse indice, na lista ele conhece o valor que está sendo armazenado em seu interior.)
+Ele tem como se fosse uma seta, indicando o próximo bloco a ser ligado.
+
+Primeiro nó assume o ultimo nó até ser colocado o próximo nó, a lista é flexivel > VARIAVEL(CRESCER OU DIMINUIR).
+
+LISTA DUPLAMENTE LIGADA:
+A grande diferença das listas duplamente ligada para a listas ligada é que elas são bidirecionais, vimos que naturalmente, não conseguimos "Andar para trás" em listas ligadas, pois os nós de uma lista ligada sabem somente quem é o próximo elemento. Nas listas duplamente ligadas, os nós sabem quem é o próximo elemento e também quem é o elemento anterior, o que permite a navegação reversa.
+	
+	--
+
+Uma PILHA é uma estrutura de dados que servem como uma coleção de elementos, e permite o acesso a somente um item de dados armazenado, o acesso aos itens de pilha é restrito - somente um item pode ser lido ou removido por vez.
+
+TIPOS DE PILHAS:
+- LIFO OU UEPS
+- FIFO OU PEPS
+
+A estrutura de PILHA LIFO (LAST IN FIRST OUT) ou UEPS(Último que Entra Primeiro que Sai), apresenta o seguinte critério:o primeiro elemento a ser retirado é o último que tiver sido inserido.
+
+(só consegue manipular um item por vez)
+
+A estrutura do tipo PILHA FIFO (First in First Out) ou PEPS (Primeiro que Entra Primeiro que Sai), apresenta o seguinte critério: o primeiro elemento a ser retirado é o primeiro que tiver sido inserido.
+
+(Pilha/Empilhamento = Stack)
+(podem ser colocado quaisquer valores dentro da pilha)
+
+
+A estrutura do tipo FILA admite remoção de elementos e inserção de novos sujeitos à seguinte regra de operação:
+O elemento removido é o que está na estrutura há mais tempo ou seja, o primeiro objeto inserido na fila é também o primeiro a ser removido seguindo o conceito FIFO.
+
+(Remove sempre o primeiro, sempre inserido a direita e removido a esquerda)
